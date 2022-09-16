@@ -1,0 +1,194 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navigation Section*/
+.navigation {
+    position: absolute;
+
+    width: 1240px;
+    height: 72px;
+    margin-left: 100px;
+    margin-top: 34px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background: white;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+.nav-logo {
+    width: 70px;
+    height: 35px;
+    margin-left: 30px;
+    margin-top: 2px;
+
+    font-family: 'Roboto';
+    font-size: 30px;
+    line-height: 35px;
+}
+.nav-logo a {
+    text-decoration: none;
+    color: black;
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.nav-links a {
+    text-decoration: none;
+    margin-right: 76px;
+    color: black;
+}
+.nav-links a:nth-last-of-type(1) {
+    margin-right: 30px;
+}
+
+.current {
+    width: 110px;
+    height: 50px;
+    text-align: center;
+    top: 50%;
+    background: #472D2D;
+    border-radius: 50px;
+}
+
+.current li {
+    margin-top: 15%;
+    color: white;
+}
+
+
+.about-left-side-content {
+    z-index: -1;
+    position: absolute;
+    width: 600px;
+    height: 2015px;
+    margin-left: 0px;
+    margin-top: 0px;
+    background: #553939;
+
+}
+.abt-me {
+    margin-top: 699px;
+    margin-left: 100px;
+    width: 407px;
+}
+.abt-me h1 {
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 17px;
+}
+.abt-me p {
+    font-size: 25px;
+    line-height: 29px;
+    color: #A7A7A7;
+}
+.skills {
+    width: 407px;
+    margin-left: 100px;
+    margin-top: 132px;
+}
+.skills h1 {
+    margin-bottom: 17px;
+    font-size: 30px;
+    line-height: 35px;
+    color: #fff;
+}
+.skills p {
+    margin-bottom: 25px;
+    font-size: 25px;
+    line-height: 29px;
+    color: #A7A7A7;
+}
+.website-social-links {
+    width: 407px;
+    margin-top: 132px;
+    margin-left: 100px;
+}
+.website-social-links h1 {
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 17px;
+}
+.website-social-links p {
+    font-size: 25px;
+    color: #A7A7A7;
+    line-height: 29px;
+}
+.website-social-links a {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 23px;
+    color: #A7A7A7;
+    margin-top: 0px;
+}
+.sections {
+    margin-top: 17px;
+}
+
+
+.about-right-side-content {
+    z-index: -1;
+    position: absolute;
+    width: 840px;
+    height: 2015px;
+    margin-left: 600px;
+    margin-top: 0px;
+    
+}
+.h1-header{
+    color: #472D2D;
+    font-size: 70px;
+    margin-top: 292px;
+    margin-left: 73px;
+}
+.hobbies {
+    width: 671px;
+    margin-left: 73px;
+    margin-top: 27px;
+}
+.hobbies h1 {
+    font-size: 30px;
+    color: black;
+    margin-bottom: 15px;
+}
+.hobbies p {
+    font-size: 30px;
+    line-height: 35px;
+    color: black;
+}
+.projects {
+    width: 671px;
+    margin-left: 73px;
+    margin-top: 72px;
+    margin-bottom: 27px;
+}
+.projects h1 {
+    font-size: 30px;
+    line-height: 35px;
+    color: black;
+    margin-bottom: 15px;
+}
+.projects p {
+    font-size: 30px;
+    line-height: 35px;
+    color: black;
+}
+.projects .proj-images {
+    margin-top: 72px;
+}
+
+.projects .proj-images img {
+    width: 490px;
+    margin-bottom: 24px;
+    height: 287.07px;
+    border: 1px solid #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}

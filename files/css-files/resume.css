@@ -1,0 +1,255 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navigation Section*/
+.navigation {
+    position: absolute;
+    z-index: 1;
+
+    width: 1240px;
+    height: 72px;
+    margin-left: 100px;
+    margin-top: 34px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background: white;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+.nav-logo {
+    width: 70px;
+    height: 35px;
+    margin-left: 30px;
+    margin-top: 2px;
+
+    font-family: 'Roboto';
+    font-size: 30px;
+    line-height: 35px;
+}
+.nav-logo a {
+    text-decoration: none;
+    color: black;
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.nav-links a {
+    text-decoration: none;
+    margin-right: 76px;
+    color: black;
+}
+.nav-links a:nth-last-of-type(1) {
+    margin-right: 17.5px;
+}
+
+.current {
+    width: 114px;
+    height: 50px;
+    text-align: center;
+    background: #472D2D;
+    border-radius: 50px;
+}
+
+.current li {
+    margin-top: 13%;
+    color: white;
+}
+
+
+.resume-left-side-content {
+    position: absolute;
+    z-index: -1px;
+    width: 600px;
+    height: 2015px;
+    margin-left: 0px;
+    margin-top: 0px;
+    background: #A77979;
+}
+.abt-me {
+    width: 407px;
+    margin-left: 100px;
+    margin-top: 699px;
+}
+.abt-me h1 {
+    font-size: 30px;
+    line-height: 35px;
+    color: white;
+}
+.abt-me p {
+    font-size: 25px;
+    line-height: 29px;
+    color: #dfdfdf;
+    width: 407px;
+    margin-top: 17px;
+}
+
+.skills {
+    width: 407px;
+    margin-left: 100px;
+    margin-top: 132px;
+}
+.skills h1 {
+    font-size: 30px;
+    line-height: 35px;
+    color: white;
+    margin-bottom: 17px;
+}
+.skills p {
+    font-size: 25px;
+    line-height: 29px;
+    color: #dfdfdf;
+    margin-top: 25px;
+}
+.skills p:first-of-type{
+    margin-top: 0px;
+}
+
+.website-social-links {
+    width: 407px;
+    margin-top: 132px;
+    margin-left: 100px;
+}
+.website-social-links h1 {
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 17px;
+}
+.website-social-links p {
+    font-size: 25px;
+    color: #A7A7A7;
+    line-height: 29px;
+}
+.website-social-links a {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 23px;
+    color: #A7A7A7;
+    margin-top: 0px;
+}
+.sections {
+    margin-top: 17px;
+}
+
+.resume-right-side-content {
+    position: absolute;
+    z-index: -1px;
+    width: 840px;
+    height: 2015px;
+    margin-left: 600px;
+    margin-top: 0px;
+    background: white;
+}
+.right-top {
+    width: 598px;
+    margin-left: 73px;
+    margin-top: 292px;
+}
+.right-top h1 {
+    font-size: 65px;
+    line-height: 70px;
+    color: #472D2D;
+}
+.right-top p {
+    font-size: 20px;
+    line-height: 23px;
+    color: black;
+}
+
+.educ {
+    width: 598px;
+    margin-left: 73px;
+    margin-top: 52px;
+}
+
+.educ h1 {
+    font-size: 40px;
+    line-height: 47px;
+    color: black;
+    margin-bottom: 14px;
+}
+.educ ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px;
+    margin-top: 22px;
+}
+.educ ul:first-of-type {
+    margin-top: 20px;
+}
+
+.educ ul li {
+    list-style: none;
+    font-size: 17px;
+    line-height: 21px;
+}
+.educ p {
+    font-size: 17px;
+    line-height: 21px;
+    margin-top: 5px;
+}
+.blue {
+    color: #202DB8;
+}
+
+
+.skills-assessment {
+    width: 587px;
+    margin-left: 73px;
+    margin-top: 80px;
+}
+.skills-assessment h1{
+    margin-bottom: 14px;
+}
+.skills-assessment hr {
+    margin-bottom: 20px;
+}
+.skills-assessment ul{
+    padding: 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.skills-assessment li{
+    list-style: none;
+}
+.progbar {
+    display: flex;
+}
+.progbar p {
+    margin-left: 10px;
+}
+
+.references {
+    width: 587px;
+    margin-left: 73px;
+    margin-top: 80px;
+}
+.references h1 {
+    font-size: 40px;
+    line-height: 47px;
+    color: black;
+    margin-bottom: 14px;
+}
+.references hr {
+    margin-bottom: 14px;
+}
+.references .one {
+    margin-bottom: 40px;
+}
+.references .one p{
+    font-size: 17px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.references .one p:nth-last-of-type(1){
+    margin-bottom: 0px;
+}
